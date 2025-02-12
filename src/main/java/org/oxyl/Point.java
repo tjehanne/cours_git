@@ -53,7 +53,8 @@ public class Point {
             return false;
         }
     }
-    
+
+    // Calcule de distance entre deux points 
     public double calculerDistance(Point p) {
         return Math.sqrt(Math.pow(p.x - this.x, 2) + Math.pow(p.y - this.y, 2));    }
 }

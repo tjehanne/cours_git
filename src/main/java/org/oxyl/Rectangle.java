@@ -36,10 +36,12 @@ public class Rectangle {
         centreY += distanceY;
     }
 
+    // Vérifie si le rectangle est un carré
     public boolean isCarre (){
         return longueur == largeur;
     }
 
+    // redimensionne le rectangle
     public void redimensionner(double f){
         longueur *= f;
         largeur *= f;
